@@ -1140,12 +1140,13 @@ function NewsColumn({ items, title, accent }) {
   );
 }
 
-function NewsDetail({ onBack }) {
+function NewsDetail({ onBack, newsKr, newsGl, newsUpdatedAt }) {
   const [filter, setFilter] = useState("전체");
   const tags = ["전체", "실적", "경쟁", "기술", "시장", "가격", "투자", "정책"];
-  const base = filter === "전체" ? NEWS_TIMELINE : NEWS_TIMELINE.filter((n) => n.tag === filter);
-  const kr = base.filter((n) => n.region === "KR");
-  const gl = base.filter((n) => n.region === "GL");
+  const all = [...newsKr, ...newsGl];
+  const filterFn = (n) => filter === "전체" || n.tag === filter;
+  const kr = newsKr.filter(filterFn);
+  const gl = newsGl.filter(filterFn);
   return (
     <DetailShell kicker="NEWS TIMELINE" title="반도체 뉴스 타임라인" accent="var(--green)" onBack={onBack}>
       {/* filter chips */}
@@ -1157,7 +1158,7 @@ function NewsDetail({ onBack }) {
               background: filter === t ? "rgba(82,224,240,0.14)" : "transparent",
               color: filter === t ? "var(--cyan)" : "var(--mut)" }}>
             {t}{t !== "전체" && <span style={{ marginLeft: 5, color: "var(--dim)", fontWeight: 400 }}>
-              {NEWS_TIMELINE.filter((n) => n.tag === t).length}</span>}
+              {all.filter((n) => n.tag === t).length}</span>}
           </button>
         ))}
       </div>
@@ -1168,7 +1169,7 @@ function NewsDetail({ onBack }) {
         <NewsColumn items={gl} title="해외" accent="var(--amber)" />
       </div>
       <div className="mono" style={{ fontSize: 10, color: "var(--dim)", marginTop: 14 }}>
-        각 항목 클릭 → 원문 기사 · 좌우 열 각각 최신순 · 큐레이션 기준 (2026.07.06)
+        각 항목 클릭 → 원문 기사 · 좌우 열 각각 최신순{newsUpdatedAt ? ` · 마지막 자동 갱신 ${new Date(newsUpdatedAt).toLocaleString("ko-KR")}` : ""}
       </div>
     </DetailShell>
   );
@@ -1393,7 +1394,7 @@ function SamsungDetail({ onBack }) {
 
 /* ══════════════════════════════ DASHBOARD ══════════════════════════════ */
 
-function Dashboard({ goDetail, newsKr, newsGl, newsUpdatedAt }) {
+function Dashboard({ goDetail, newsKr, newsGl, newsUpdatedAt, briefing }) {
   return (
     <div style={{ padding: "18px 22px 40px", display: "flex", flexDirection: "column", gap: 14, minWidth: 900 }}>
       {/* briefing */}
@@ -1401,11 +1402,11 @@ function Dashboard({ goDetail, newsKr, newsGl, newsUpdatedAt }) {
         background: "linear-gradient(90deg, rgba(82,224,240,0.08), rgba(16,26,48,0.4) 55%)" }}>
         <div style={{ display: "flex", alignItems: "center", gap: 10, marginBottom: 8 }}>
           <div className="live" />
-          <span className="eyebrow" style={{ color: "var(--cyan)" }}>Daily Briefing · {BRIEFING.date}</span>
+          <span className="eyebrow" style={{ color: "var(--cyan)" }}>Daily Briefing · {briefing.date}</span>
         </div>
-        <div className="disp" style={{ fontSize: 19, fontWeight: 700, marginBottom: 8 }}>{BRIEFING.headline}</div>
+        <div className="disp" style={{ fontSize: 19, fontWeight: 700, marginBottom: 8 }}>{briefing.headline}</div>
         <div style={{ display: "flex", gap: 18, flexWrap: "wrap" }}>
-          {BRIEFING.points.map((p, i) => (
+          {briefing.points.map((p, i) => (
             <div key={i} className="hoverline" style={{ flex: "1 1 240px", fontSize: 12, color: "var(--mut)", lineHeight: 1.6, padding: "4px 6px" }}>
               <span className="mono" style={{ color: "var(--cyan)", marginRight: 7 }}>{String(i + 1).padStart(2, "0")}</span>{p}
             </div>
@@ -1427,10 +1428,10 @@ function Dashboard({ goDetail, newsKr, newsGl, newsUpdatedAt }) {
         </div>
         <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 16 }}>
           <div>
-            <NewsList items={newsKr} />
+            <NewsList items={newsKr.slice(0, 5)} />
           </div>
           <div style={{ borderLeft: "1px solid var(--line)", paddingLeft: 16 }}>
-            <NewsList items={newsGl} />
+            <NewsList items={newsGl.slice(0, 5)} />
           </div>
         </div>
         <div className="mono" style={{ fontSize: 9.5, color: "var(--dim)", textAlign: "right", marginTop: 6 }}>전체 타임라인 보기 →</div>
@@ -1459,6 +1460,9 @@ export default function App() {
   const [newsGl, setNewsGl] = useState(NEWS_GL);
   const [newsUpdatedAt, setNewsUpdatedAt] = useState(null);
 
+  // 데일리 브리핑 자동 갱신: /data/briefing.json 이 있으면 최신 데이터로 교체.
+  const [briefing, setBriefing] = useState(BRIEFING);
+
   useEffect(() => {
     fetch("/data/news.json", { cache: "no-store" })
       .then((r) => (r.ok ? r.json() : null))
@@ -1466,6 +1470,13 @@ export default function App() {
         if (data && Array.isArray(data.kr) && data.kr.length) setNewsKr(data.kr);
         if (data && Array.isArray(data.gl) && data.gl.length) setNewsGl(data.gl);
         if (data && data.updatedAt) setNewsUpdatedAt(data.updatedAt);
+      })
+      .catch(() => {});
+
+    fetch("/data/briefing.json", { cache: "no-store" })
+      .then((r) => (r.ok ? r.json() : null))
+      .then((data) => {
+        if (data && data.headline && Array.isArray(data.points)) setBriefing(data);
       })
       .catch(() => {});
   }, []);
@@ -1519,12 +1530,14 @@ export default function App() {
               </div>
               <div style={{ display: "flex", alignItems: "center", gap: 8 }}>
                 <div className="live" />
-                <span className="mono" style={{ fontSize: 10.5, color: "var(--mut)" }}>DATA AS OF 2026.07.06</span>
+                <span className="mono" style={{ fontSize: 10.5, color: "var(--mut)" }}>
+                  DATA AS OF {new Date().toLocaleDateString("ko-KR", { year: "numeric", month: "2-digit", day: "2-digit" }).replace(/\. /g, ".").replace(/\.$/, "")}
+                </span>
               </div>
             </div>
           </div>
-          {view === "dashboard" && <Dashboard goDetail={goDetail} newsKr={newsKr} newsGl={newsGl} newsUpdatedAt={newsUpdatedAt} />}
-          {view === "news" && <NewsDetail onBack={() => goDetail("dashboard")} />}
+          {view === "dashboard" && <Dashboard goDetail={goDetail} newsKr={newsKr} newsGl={newsGl} newsUpdatedAt={newsUpdatedAt} briefing={briefing} />}
+          {view === "news" && <NewsDetail onBack={() => goDetail("dashboard")} newsKr={newsKr} newsGl={newsGl} newsUpdatedAt={newsUpdatedAt} />}
           {view === "market" && <MarketDetail onBack={() => goDetail("dashboard")} />}
           {view === "competitor" && <CompetitorDetail onBack={() => goDetail("dashboard")} />}
           {view === "skhynix" && <SkhDetail onBack={() => goDetail("dashboard")} />}
