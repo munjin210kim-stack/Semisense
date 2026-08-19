@@ -162,7 +162,7 @@ ${headlines}
         headers: { 'Content-Type': 'application/json', 'x-goog-api-key': apiKey },
         body: JSON.stringify({
           contents: [{ role: 'user', parts: [{ text: prompt }] }],
-          generationConfig: { maxOutputTokens: 1024 },
+          generationConfig: { maxOutputTokens: 4096 },
         }),
       }
     );
@@ -172,7 +172,13 @@ ${headlines}
     }
     const data = await res.json();
     const raw = (data.candidates?.[0]?.content?.parts || []).map((p) => p.text || '').join('\n').trim();
-    const cleaned = raw.replace(/```json|```/g, '').trim();
+    let cleaned = raw.replace(/```json|```/g, '').trim();
+    // 혹시 앞뒤에 다른 텍스트가 섞여 나와도, 첫 '{'부터 마지막 '}'까지만 잘라서 파싱 시도
+    const start = cleaned.indexOf('{');
+    const end = cleaned.lastIndexOf('}');
+    if (start !== -1 && end !== -1 && end > start) {
+      cleaned = cleaned.slice(start, end + 1);
+    }
     const parsed = JSON.parse(cleaned);
     if (!parsed.headline || !Array.isArray(parsed.points)) throw new Error('형식 오류');
     return { date: todayLabel(), headline: parsed.headline, points: parsed.points, updatedAt: new Date().toISOString() };
