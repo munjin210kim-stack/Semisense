@@ -233,6 +233,49 @@ Vera Rubin은 각 프로세서에 HBM4 8스택 탑재 예정입니다. 공급 �
 맥쿼리는 SK하이닉스 2026 연간 영업익을 272조로 전망하고 있습니다. 특정 회사·분기를 자세히 볼까요?` },
 ];
 
+/* ── JARVIS 시스템 프롬프트: 대시보드 데이터를 컨텍스트로 압축 ── */
+function buildJarvisSystem(newsKr, newsGl) {
+  const context = {
+    기준일: new Date().toISOString().slice(0, 10),
+    시장규모_연도별: MARKET_5Y,
+    시장규모_분기별: MARKET_Q,
+    점유율: SHARE_BARS,
+    SK하이닉스_5개년: SKH_5Y,
+    삼성DS_5개년: SDS_5Y,
+    SK하이닉스_최근분기: SKH_Q25,
+    삼성DS_최근분기: SDS_Q25,
+    데일리브리핑: BRIEFING,
+    최근뉴스_한국: (newsKr || []).slice(0, 12),
+    최근뉴스_해외: (newsGl || []).slice(0, 12),
+  };
+
+  return `당신은 'JARVIS'입니다. SEMISENSE 대시보드에 내장된 반도체 마켓 인텔리전스 애널리스트로, SK하이닉스·삼성전자 DS부문 사업기획/경영기획 실무자를 지원합니다.
+
+원칙:
+- 한국어로 답한다. 실무자가 바로 쓸 수 있게 간결하고 구조적으로 답한다.
+- 아래 대시보드 데이터를 1차 근거로 사용한다. 데이터에 없는 내용은 일반 지식으로 보완하되, 추정임을 밝힌다.
+- 숫자는 단위(조원/%/$B)를 붙이고, 근거가 되는 연도/분기를 명시한다.
+- 최근뉴스 항목은 매일 아침 자동 갱신된다. 오늘 소식을 물으면 이 데이터의 최신 항목을 근거로 답한다.
+- 서식은 짧은 제목, 굵게, 목록(•)만 사용한다. 답변은 200자~500자 사이로 압축한다.
+
+[대시보드 데이터]
+${JSON.stringify(context)}`;
+}
+
+/* ── JARVIS 서버 호출: API 키는 Vercel 서버(/api/chat)에만 있고, 여기서는 그 함수만 부른다 ── */
+async function askJarvis(system, history, message) {
+  const res = await fetch("/api/chat", {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify({ system, history, message, files: [] }),
+  });
+  if (!res.ok) throw new Error("API " + res.status);
+  const data = await res.json();
+  const text = (data.text || "").trim();
+  if (!text) throw new Error("empty");
+  return text;
+}
+
 function jarvisSimReply(text) {
   const t = text.toLowerCase();
   let best = null, bestScore = 0;
@@ -527,9 +570,9 @@ function NewsList({ items, onSelect }) {
 
 /* ══════════════════════════════ JARVIS CHAT ══════════════════════════════ */
 
-function JarvisPanel({ open, setOpen }) {
+function JarvisPanel({ open, setOpen, newsKr, newsGl }) {
   const [messages, setMessages] = useState([
-    { role: "assistant", content: "안녕하십니까. 반도체 마켓 인텔리전스 에이전트 JARVIS입니다. 시장·경쟁·자사 데이터는 2026년 7월 6일 기준으로 준비되어 있습니다.\n\n현재는 데모 모드로, 핵심 주제(HBM 경쟁·실적 비교·리스크·시장 규모·엔비디아 동향)에 답변드립니다. 아래 버튼을 눌러보시거나 직접 질문해 주십시오." },
+    { role: "assistant", content: "안녕하십니까. 반도체 마켓 인텔리전스 에이전트 JARVIS입니다. 대시보드 데이터와 매일 아침 갱신되는 최신 뉴스를 근거로 답변드립니다. 아래 버튼을 눌러보시거나 직접 질문해 주십시오." },
   ]);
   const [input, setInput] = useState("");
   const [loading, setLoading] = useState(false);
@@ -546,13 +589,20 @@ function JarvisPanel({ open, setOpen }) {
     setMessages(next);
     setInput("");
     setLoading(true);
-    // 데모 모드: 준비된 지식베이스에서 응답 (정식판은 Gemini API 연동 예정)
-    const reply = jarvisSimReply(text);
-    const delay = 700 + Math.min(reply.length * 6, 1400); // 분석하는 느낌의 지연
-    setTimeout(() => {
+
+    const system = buildJarvisSystem(newsKr, newsGl);
+    const history = messages.map((m) => ({ role: m.role, content: m.content }));
+
+    try {
+      const reply = await askJarvis(system, history, text);
       setMessages((m) => [...m, { role: "assistant", content: reply }]);
+    } catch (err) {
+      // 서버 연결 실패 시 예전 대본 기반 응답으로 자동 전환 (화면이 절대 깨지지 않음)
+      const reply = jarvisSimReply(text);
+      setMessages((m) => [...m, { role: "assistant", content: reply }]);
+    } finally {
       setLoading(false);
-    }, delay);
+    }
   };
 
   if (!open) {
@@ -585,7 +635,7 @@ function JarvisPanel({ open, setOpen }) {
         <div style={{ flex: 1 }}>
           <div className="disp" style={{ fontWeight: 700, fontSize: 15, letterSpacing: 1 }}>J.A.R.V.I.S</div>
           <div className="mono" style={{ fontSize: 9.5, color: loading ? "var(--cyan)" : "var(--dim)" }}>
-            {loading ? "ANALYZING…" : "SEMICONDUCTOR INTELLIGENCE · DEMO"}
+            {loading ? "ANALYZING…" : "SEMICONDUCTOR INTELLIGENCE"}
           </div>
         </div>
         <button className="btn" style={{ padding: "4px 10px", fontSize: 11 }} onClick={() => setOpen(false)}>숨기기</button>
@@ -1343,7 +1393,7 @@ function SamsungDetail({ onBack }) {
 
 /* ══════════════════════════════ DASHBOARD ══════════════════════════════ */
 
-function Dashboard({ goDetail }) {
+function Dashboard({ goDetail, newsKr, newsGl, newsUpdatedAt }) {
   return (
     <div style={{ padding: "18px 22px 40px", display: "flex", flexDirection: "column", gap: 14, minWidth: 900 }}>
       {/* briefing */}
@@ -1366,7 +1416,9 @@ function Dashboard({ goDetail }) {
       <div className="card clickable" style={{ padding: "9px 16px 10px" }} onClick={() => goDetail("news")}>
         <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 16, marginBottom: 4 }}>
           <div style={{ display: "flex", alignItems: "baseline", justifyContent: "space-between" }}>
-            <span className="eyebrow" style={{ color: "var(--green)" }}>NEWS</span>
+            <span className="eyebrow" style={{ color: "var(--green)" }}>
+              NEWS{newsUpdatedAt ? ` · 갱신 ${new Date(newsUpdatedAt).toLocaleString("ko-KR", { month: "2-digit", day: "2-digit", hour: "2-digit", minute: "2-digit" })}` : ""}
+            </span>
             <span className="eyebrow" style={{ color: "var(--cyan)", width: 44, textAlign: "center" }}>한국</span>
           </div>
           <div style={{ paddingLeft: 16, display: "flex", justifyContent: "flex-end", alignItems: "baseline", gap: 10 }}>
@@ -1375,10 +1427,10 @@ function Dashboard({ goDetail }) {
         </div>
         <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 16 }}>
           <div>
-            <NewsList items={NEWS_KR} />
+            <NewsList items={newsKr} />
           </div>
           <div style={{ borderLeft: "1px solid var(--line)", paddingLeft: 16 }}>
-            <NewsList items={NEWS_GL} />
+            <NewsList items={newsGl} />
           </div>
         </div>
         <div className="mono" style={{ fontSize: 9.5, color: "var(--dim)", textAlign: "right", marginTop: 6 }}>전체 타임라인 보기 →</div>
@@ -1400,6 +1452,23 @@ export default function App() {
   const [chatOpen, setChatOpen] = useState(true);
   const [curr, setCurr] = useState("auto");
   const mainRef = useRef(null);
+
+  // 뉴스 자동 갱신: /data/news.json 이 있으면 최신 데이터로 교체.
+  // 실패하면 하드코딩된 NEWS_KR/NEWS_GL이 그대로 남아 화면이 깨지지 않습니다.
+  const [newsKr, setNewsKr] = useState(NEWS_KR);
+  const [newsGl, setNewsGl] = useState(NEWS_GL);
+  const [newsUpdatedAt, setNewsUpdatedAt] = useState(null);
+
+  useEffect(() => {
+    fetch("/data/news.json", { cache: "no-store" })
+      .then((r) => (r.ok ? r.json() : null))
+      .then((data) => {
+        if (data && Array.isArray(data.kr) && data.kr.length) setNewsKr(data.kr);
+        if (data && Array.isArray(data.gl) && data.gl.length) setNewsGl(data.gl);
+        if (data && data.updatedAt) setNewsUpdatedAt(data.updatedAt);
+      })
+      .catch(() => {});
+  }, []);
 
   const goDetail = (v) => { setView(v); if (mainRef.current) mainRef.current.scrollTop = 0; };
 
@@ -1454,7 +1523,7 @@ export default function App() {
               </div>
             </div>
           </div>
-          {view === "dashboard" && <Dashboard goDetail={goDetail} />}
+          {view === "dashboard" && <Dashboard goDetail={goDetail} newsKr={newsKr} newsGl={newsGl} newsUpdatedAt={newsUpdatedAt} />}
           {view === "news" && <NewsDetail onBack={() => goDetail("dashboard")} />}
           {view === "market" && <MarketDetail onBack={() => goDetail("dashboard")} />}
           {view === "competitor" && <CompetitorDetail onBack={() => goDetail("dashboard")} />}
@@ -1462,7 +1531,7 @@ export default function App() {
           {view === "samsung" && <SamsungDetail onBack={() => goDetail("dashboard")} />}
         </div>
         {/* jarvis */}
-        <JarvisPanel open={chatOpen} setOpen={setChatOpen} />
+        <JarvisPanel open={chatOpen} setOpen={setChatOpen} newsKr={newsKr} newsGl={newsGl} />
       </div>
     </div>
     </UnitCtx.Provider>
