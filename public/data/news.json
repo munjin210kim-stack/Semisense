@@ -1,0 +1,71 @@
+{
+  "kr": [
+    {
+      "date": "07.02",
+      "url": "https://www.fnnews.com/news/202607041300475345",
+      "title": "삼성·SK, 충청권 240조 투자 발표",
+      "body": "삼성 온양·천안 HBM 팹 56조, SK하이닉스 청주 M17 낸드·P&T7 첨단 패키징 투자. 후공정 거점을 AI 시대 핵심 기지로 고도화.",
+      "tag": "투자",
+      "_sortDate": "2026-07-02"
+    },
+    {
+      "date": "02.12",
+      "url": "https://www.smath.world/insight/hbm4e-sk-1c-20260529-1001/",
+      "title": "삼성전자, HBM4 양산 출하 개시",
+      "body": "1c D램 + 파운드리 4나노 베이스다이, 11.7Gbps·3.3TB/s. HBM4E 12단 샘플도 출하하며 SK하이닉스 추격 본격화.",
+      "tag": "기술",
+      "_sortDate": "2026-02-12"
+    },
+    {
+      "date": "01.28",
+      "url": "https://news.skhynix.co.kr/2025-business-results/",
+      "title": "SK하이닉스 2025년 영업익 47.2조 — 삼성 첫 추월",
+      "body": "매출 97.1조(+47%), 영업이익률 49%. HBM 매출 전년비 2배. 4분기 영업이익률 58%로 사상 최고.",
+      "tag": "실적",
+      "_sortDate": "2026-01-28"
+    },
+    {
+      "date": "01.29",
+      "url": "https://zdnet.co.kr/view/?no=20260129090854",
+      "title": "삼성전자, 분기 영업익 20조 첫 돌파",
+      "body": "4분기 매출 93.8조·영업익 20.1조. DS부문이 44조/16.4조로 견인. 한국 기업 최초 분기 영업익 20조 돌파.",
+      "tag": "실적",
+      "_sortDate": "2026-01-29"
+    }
+  ],
+  "gl": [
+    {
+      "date": "06.05",
+      "url": "https://finance.yahoo.com/sectors/technology/articles/nvidia-certifies-samsung-sk-hynix-133001560.html",
+      "title": "Nvidia, 3사 모두 Vera Rubin HBM4 인증 (Bloomberg)",
+      "body": "젠슨 황이 삼성·SK하이닉스·마이크론 모두 차세대 Vera Rubin용 HBM4 인증 통과 확인. SK 60~70%, 삼성 25~30% 물량 추정.",
+      "tag": "경쟁",
+      "_sortDate": "2026-06-05"
+    },
+    {
+      "date": "04.16",
+      "url": "https://www.cnbc.com/2026/04/16/tsmc-q1-profit-58-percent-ai-chip-demand-record.html",
+      "title": "TSMC 1분기 순이익 +58% 사상 최대 (CNBC)",
+      "body": "AI 수요가 제조 캐파를 한계까지. 2026 매출 30%+ 성장, CapEx $52~56B 전망. 'sold-out 환경 2026년 내내 지속'.",
+      "tag": "실적",
+      "_sortDate": "2026-04-16"
+    },
+    {
+      "date": "05.18",
+      "url": "https://www.trendforce.com/news/2026/05/18/news-memory-supercycle-drives-1q26-price-surge-samsung-flags-146-asp-jump-sk-hynix-sees-mid-60-dram-gains/",
+      "title": "삼성 메모리 ASP +146% 급등 (TrendForce)",
+      "body": "26.1Q 삼성 메모리 평균판가 2025년 평균 대비 146% 급등. SK D램도 60%대 중반 상승. 서버 D램·eSSD가 주도.",
+      "tag": "가격",
+      "_sortDate": "2026-05-18"
+    },
+    {
+      "date": "01.12",
+      "url": "https://www.gartner.com/en/newsroom/press-releases/2026-01-12-gartner-says-worldwide-semiconductor-revenue-grew-21-percent-in-2025",
+      "title": "Nvidia, 첫 반도체 매출 $100B 돌파 (Gartner)",
+      "body": "2025년 $126B로 1위, 업계 성장 35% 기여. 삼성 $73B, SK하이닉스 $61B. 인텔 6%로 하락.",
+      "tag": "경쟁",
+      "_sortDate": "2026-01-12"
+    }
+  ],
+  "updatedAt": "2026-07-06T00:00:00.000Z"
+}
