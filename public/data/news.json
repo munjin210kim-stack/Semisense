@@ -1,6 +1,90 @@
 {
   "kr": [
     {
+      "date": "10.18",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9QRUlIR3FsMWVadjZUMlZtY1doX2RYbkwxdEdrNWdsdmNtbEE0YXRKVWhRb3NJS3lpY2tmTlB3VlhMRVZDS1VpRjZvTzJIS0FjQl9LcXFOU0EyMmJOdW5RUUdhdFVGTWF2ZnBLNU9YSWt1dw?oc=5",
+      "title": "\"2028년 불황까지 주가에 반영…반도체 살 때\"",
+      "body": "",
+      "tag": "시장"
+    },
+    {
+      "date": "10.18",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5wcy1ZUWNfVTFLcnRBUTVwaklnUTQzZVhVZ3ExMkp1aVFFNVNVdHBRN0h4R3MyX09fdWRkYlZkRE1Na05Gb1NHbzV2U2VyeS1SM3lVcWZPV2Zzdw?oc=5",
+      "title": "100명 중 0.8명 구멍 뚫어야 대기업 임원…SK하이닉스 최다 증가",
+      "body": "",
+      "tag": "시장"
+    },
+    {
+      "date": "10.18",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1rWTd2MXZDSHBscXQ2dEx4Y3dFaGlzQlctaEVWN2ZrUnJSUzRob3FWQWpmQTFNYTdmeE95QU9SRDJJTk5SWGpwd1pHUUgzRFBsTmZSSElza1VVVkFFdThRVnlxNjJlcjBQN2FHOHRn?oc=5",
+      "title": "한국산업지능화협회, 'SEMICON West 2026' 통합한국관 통해 북미시장 공략 나서",
+      "body": "",
+      "tag": "시장"
+    },
+    {
+      "date": "10.18",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1QcktRdEFDeHk5NUFnUzZrRlhCZ2t1VloxQkp1RVdQb0I2WmZDT1RkbzEwODZzeUFDQjNyYjdqX1RzYjBENTJITEhaSGNDSV90RDNYWEpn?oc=5",
+      "title": "中 창신 매출 8배 급증…메모리 3강, 2028년 ‘증설 청구서’ 받을까",
+      "body": "",
+      "tag": "실적"
+    },
+    {
+      "date": "10.18",
+      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBaRVdFVEFjMnFWUEhYWWltSHRYVjJTUERXZGlCb0YxdHU4Uzh5VVVNNXlQZE0yQ3EzRVQxSnFsTmVhYVp2UHhSNmRRLWJCbWtkbVHSAVNBVV95cUxQNUF5TmVoTUo4VEoyZU9VUkpyNDAxV3J5aER4TXBtaVpENDlXYTc0ZGpidmFZQmhEM3JFOGkwLWNBcU5meEJFd2NaVC01THJoQ1hxSQ?oc=5",
+      "title": "삼성·TSMC, 첨단공정 활용 HBM 물량 확대…‘메모리 병목’ 뚫는다",
+      "body": "",
+      "tag": "기술"
+    },
+    {
+      "date": "10.18",
+      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFA3WldhTWZaaEVTWHNENi1FYXF3OERPQmN2ekIxMjhZd044R0dldVNDNkQzZ05lU3IxY253aGVXMV82U0xfT0dtM1lEV1duLU1PMmfSAVNBVV95cUxOUUpRSU10YXg2LXh0MDRsMEt0WGtveGNqVXJOSmJ2c3N5NHpXYTZvM0Z3TTAxZ2xmT01NRXdTRHlVVjhzTUxURFYtalpYWEFlcW9RUQ?oc=5",
+      "title": "[단독] 삼성전자, ‘차세대 HBM’ TSMC와 함께 만든다",
+      "body": "",
+      "tag": "시장"
+    },
+    {
+      "date": "10.18",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxORTF4cFFkcEU2ZWxsWnNKcXFEYnBRVnJQN3FZdDl5elpOWEVMbHB3SHFkUFlUMEk3OFBVN1BBbUZSazBLdnVGWEt4LTYxSnlOYlZscERrZlNXZDdrQ2NBaE5XZVBaelpYc2JlZXJjeTVObjhkU3kzZ3lGM21fMU5WLUg3eVBuU3pH?oc=5",
+      "title": "캐시 우드 \"메모리 악순환\" 경고…SK하이닉스, HBM 초격차로 돌파",
+      "body": "",
+      "tag": "시장"
+    },
+    {
+      "date": "10.18",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1LUER3V3hXVEQwT0dOcVE3THRld1FTYUhUM2FsUGxTajZmbDJGdEpCOG1fN0dKRlFzd0lhejJlN21jZmpxS3pTdE9Rd0hZdlB3ZmhXY1lNVm5YWmZmc0xYM3lkQTBJcHNUVjdPelFnV2XSAXRBVV95cUxQcDlOQTAzMjM2RnZaR2s1bE9sbkRzUWV2QmU0TnZKcjRHclB2RktBa2pKOXoxa0xuQW5wSWtMUXRac05TYmE4MjJ4Z1o4UTRSaW9VN094VXdPUEpfdExxUzdKQlZOR3R4X2JRcUp6dmpVZGVYag?oc=5",
+      "title": "머스크 “中, 2028년 D램 대량 생산”… 삼성·SK하이닉스 겨냥했나",
+      "body": "",
+      "tag": "시장"
+    },
+    {
+      "date": "10.18",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9rMV9TV1oyaGJKZF96aDBEN3JaMVQxUmxqY2xkTzVySnVMUzJ6SDF6OTh1ZU1YSWJyc01PV1UwX2l5WlVsMFV1c0JEQmJobTcyekJfUzFDalRuMTd6WlltSWpvdk8wUnlteDNra1IwbzXSAXRBVV95cUxONFhnbFRZUlhiWmY3X0ZNNDBHVzRRSmNidy1yVGIyd1NES2JwQmhiRzVvcWtyWjIxb3JxeXRhMWJqNXJXVURDVzBwQjRYRUxzQ3E3MHIteWZyeVV4d21CdGw5N252TEZyN2dvUXpYR2VGRjBGWg?oc=5",
+      "title": "삼성 반도체 ‘AX/PI센터’, 수원 SAIT 떠나 동탄행",
+      "body": "",
+      "tag": "시장"
+    },
+    {
+      "date": "10.17",
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE4xdzBvWWlYdGR0czYxZDF6bzNuZmJtb0RMQVkzZnUwLVNlekpQSllxOHJPLVRmSDZSYTRMdTdVVFhRRW5DVFFZYU1ob1hBMXotSHhTMWdnV1JqUG9nVDZDY2g5VFlFX055YURveWdMUmpDTFE?oc=5",
+      "title": "중국의 기술 추격에 '반도체 한미동맹' 힘 실려, 삼성전자·SK하이닉스 미국 협력사와 맞손",
+      "body": "",
+      "tag": "기술"
+    },
+    {
+      "date": "10.17",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPSW9PTXAycllXRjlKWnVLUWZpNXlmTjRFMHV1a2RQQzdUOHVsZmdfTm5tdEtsaHA0UHVxdVJFakpMNW9faDR4VWk0N2RWN1NQS1Uyd1dFVnpBa0JLSzRiSXQ4dk8wVktZcFI0cmNQekpOQUZlVWF1YkpuNVJLSV9kSQ?oc=5",
+      "title": "성과급은 직원에게, 주가 손실은 주주에게?…SK하이닉스 국회 청원",
+      "body": "",
+      "tag": "시장"
+    },
+    {
+      "date": "10.16",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBSd3Njc0IwQ3hiTzhkMUtZLUZfakFOMnJUQVJfck9raHdXLU0yMEszNWgzNHFXZ0RNLV9yNlRha3hybEVKN1hhcGZwQVVxUnNFend0UUdaMDl6UlFEVVFrUkZuVDhaaEE?oc=5",
+      "title": "반도체 슈퍼사이클 효과…채용시장도 ’들썩’",
+      "body": "",
+      "tag": "시장"
+    },
+    {
       "date": "10.17",
       "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBSUlVlVjMxNlpWZjhuOXRpalF1TWJjWjJjMWJWeGNiNnVua2sxY2Zla2hSUGpMOFlQWW14emRoQ2F0WlRrSk1aWkw5R2pialZKTVozbWN5RDhteW0yVldNNzU4elkyTllYaGgtQXV5OE5HT2t2?oc=5",
       "title": "\"중국이 D램 쏟아낼 것\"…머스크는 왜 2028년을 콕 집었나",
@@ -20,13 +104,6 @@
       "title": "삼전하닉 추격하는 中 반도체 굴기…창신메모리 매출 600% 폭증",
       "body": "",
       "tag": "실적"
-    },
-    {
-      "date": "10.16",
-      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBSd3Njc0IwQ3hiTzhkMUtZLUZfakFOMnJUQVJfck9raHdXLU0yMEszNWgzNHFXZ0RNLV9yNlRha3hybEVKN1hhcGZwQVVxUnNFend0UUdaMDl6UlFEVVFrUkZuVDhaaEE?oc=5",
-      "title": "반도체 슈퍼사이클 효과…채용시장도 ’들썩’",
-      "body": "",
-      "tag": "시장"
     },
     {
       "date": "10.16",
@@ -97,92 +174,36 @@
       "title": "머스크, 메모리 반도체 가격 정책 강력 비판...삼성·SK하이닉스 겨냥",
       "body": "",
       "tag": "가격"
-    },
-    {
-      "date": "10.16",
-      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1ZaGZmME5SM09lZWMtcm94OU9tT3JLM0U5dUlNdkhSRDdDNjBQY1J0OTZJXzVSSVNodVR6dUxBQWxKT0F4Zm9Xa2lkU21TeloycllXUkVwR3dxejlhdUhydW5CU1BYMnNEenc?oc=5",
-      "title": "'HBM 아버지' 김정호 KAIST 교수, 과학기술혁신대상 수상",
-      "body": "",
-      "tag": "기술"
-    },
-    {
-      "date": "10.16",
-      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFA2YmgxSTJza3dfZEhZMEdvcThaeTB4cXdfWldxMFhwck9CNzViWlpiWFNKWlM0VTR2c1FPMFRLcmpIT3B4aUxkcVlhV1V1em9Sc0lBbDJhR3FkSk9zeWRYMDBaVGZHb0pQMWFUcmwxa2Q?oc=5",
-      "title": "삼성전자, 美 테일러 제2공장 내달 전격 착공…AI 반도체 생산기지 확대 속도 By The Guru",
-      "body": "",
-      "tag": "투자"
-    },
-    {
-      "date": "10.16",
-      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9CLXM0dVVRckp1eUJZTXBaSDlibC1objQyU2FKNE5Ha0IzODFKeENpV2o4U0VOYU1JaHJROGxwRUpueG95Q2R1eUpGWG5tcFhvNG1KMGl0SlJidTR0NHFBV9IBeEFVX3lxTE1QZ2x6emZWNUhUTWc2YVFPNGRUdE04Zmx3YVlUWUxaV3psNDEyd3FSeW85cVpDTmltY2EwNW5PWDZ1dFBKc1NyeFpDQ2hTNFFXc285N0lFN2tHUEZ0WXNDTTV1UlVnSW9hNlhwMWE0SDZ3UVB6RmRrZg?oc=5",
-      "title": "日, 美 반도체 팹에 대규모 투자…삼성·SK하이닉스 '예의주시'",
-      "body": "",
-      "tag": "투자"
-    },
-    {
-      "date": "10.15",
-      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQMjNXSkxsREp4OThVR0JkYlFCUzhKaDNWZHdZbFlUSW9Ld2w0OFNLUkdZb0hLUGhGUVYxOXpONG9iRlhrbk5xb3VvMHUtclBqNUNScXRhMnNDMml5Y1Vhckc5NFJKM3l4OE9SYWhGbDAtdmxvTmM2V1VJcEhzZWJhRA?oc=5",
-      "title": "\"하루 만에 13억 수익 났는데\"…하이닉스 49억 투자한 회장의 반전",
-      "body": "",
-      "tag": "투자"
-    },
-    {
-      "date": "10.15",
-      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9qSXlnc3J6d29Ia3pFOFZIVDdlVlprS0hYSkMxbFZtSWV3N2pkQWlwSXBLTTM2M3gzbUtCQXBuekhSdkF0U3QzZkR2elNfWFhJb3d1ZUY2RldidnM?oc=5",
-      "title": "하이닉스 주가 급락, 49억원치 사들였다 손실…누구?",
-      "body": "",
-      "tag": "시장"
-    },
-    {
-      "date": "10.14",
-      "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE41RGxhc1JKLWN0cEY1bHhEQ016NmlTNkE0Nkx6cWxiSDNZb21UbmlSenNFd2NVYllsNUZRRk1QX1BtMmR1R012M0pkRQ?oc=5",
-      "title": "ASML \"2028년까지 반도체 장비 공급 부족\"…韓 최대 시장",
-      "body": "",
-      "tag": "시장"
-    },
-    {
-      "date": "10.14",
-      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE0xRXA4aGRsSzJqM1dCLV85VU1mUEJCYkdlUW5LZmxvUGhOLVBIWU0wVlpSRmg2Q2tfeU1nZ1JjZU5FcmNfRVk4Yml6LW8tZw?oc=5",
-      "title": "삼성전자, 반도체 협력사에 “AI로 장비 고장·오류 사전 대응” 주문...장비업계 기술 전략 바뀌나",
-      "body": "",
-      "tag": "기술"
-    },
-    {
-      "date": "10.15",
-      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE8zTXRja2s5N0JJVkd1eGdVVVpOTjd5RXdYVWluWXFNYVd0NjJnQ1BscFVBUW1JVUE5QnBiU1o4NnBQNW9PazdjbVlheUR4bmxuWEdOSVh1UVMyTDRDdXc1ZE9Jb2FrRFpW0gFuQVVfeXFMTVZwNFEzV1JWcmpULUJuYko2bmxDRzd4SGE2dmVtRTgtVWRmZXlKRjZtbUkxbHpJbEZkU0dWbW9PMGlwNUpLY3FRaDhmWlZ3TzJpYzZvN0tpM1JhVjRIVDlmZTQwSC1Kd1dTTjRjRmc?oc=5",
-      "title": "\"SK하이닉스 '美 투자할테니 中 공장에 반도체장비 허용' 요구\" - 머니투데이",
-      "body": "",
-      "tag": "투자"
-    },
-    {
-      "date": "10.15",
-      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1ZV3U1NXliMEl2Sld4ZGZVUUM4ZC1mLWZHdFZkRl9sd0pfZTk1dWg2VnlqV1VjajZ6Y2FObFdtVGVZUjdYRTV3bzZUZHdCZmVWdFNaUE1pRG8xUTlxcjdyZkVYU2REZE8yUjVMeWl5SzFaTm8?oc=5",
-      "title": "\"SK하이닉스, 美공장 짓는 조건으로 中에 美장비 수출 확대 요구\"",
-      "body": "",
-      "tag": "투자"
-    },
-    {
-      "date": "10.15",
-      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5XdlplUFBzb2xySzduZ0tuSE5WbENTdENENUJ6aERzVEtHSW5DdzZTOExGZUZHVVB0QWRVdWpPbDVzQm9yYk84UWNmWlV6SHVZaEE?oc=5",
-      "title": "中반도체 추격에 美물가 쇼크 … 악재덮친 코스피 조정 언제까지",
-      "body": "",
-      "tag": "시장"
-    },
-    {
-      "date": "10.14",
-      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE8yZGJLcmVJVHJyRnpWVlAycWc2RkF3dklKV0diUXhJN1N0TFh6Wi16Qm5hSG1tUXlnZ0VZeE40c2dUalE4dWliendrMEo4WV9BN0wxTmVCbk9CQWpKSmZTWkxFcXNPdjZNWGhJNDIxNnU?oc=5",
-      "title": "삼성전자·SK하이닉스 저격한 머스크…\"마이크론 메모리 가격만 적당\"",
-      "body": "",
-      "tag": "경쟁"
     }
   ],
   "gl": [
     {
-      "date": "10.17",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNSDgyNmdyZzd3R0ltd0hjNWtvMnJiaVJmNXVzY0RPZVlhVUVYZTNHT0JSdlZiUXZhQlppbktHVXd4ZGdULUVpeWpHcEd6MUpkSkZxU3YyZEtfNFNSakRfbm1xcWtJWU5fZ0kwQzVUd3Qwc3pzT1ZjS2MyaThrM3J1a2xwVmxsYmhuUndNOXZqUWE3dzRJX3IyaUFreVZrWkRpRXRFb3o0YmRFeGhDMS1fTg?oc=5",
-      "title": "Micron Is Down 30% From Its High and Just Lost Its $1 Trillion Status",
+      "date": "10.18",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQaHVWYXBYbEJyaEFzY0dLMnNMRFpQeWZQbm5pSHZxU3p0UGtnUmJ6R1UxVl93LXBUSXRoZThFRFdLOVpOOXMwTUZxMXBFSDA5M2VaZ09CcFVrQWJNaWUzbnRwMEIwdHNxRHVHbklzRVZGbmMyZjhPVGFNbFdvWHZmVmc0TzZLRFlSTzV0cFBZTkRwU3dUQTRZNG12QXNMUmhTOXA2RV8xWVBwU2pPeVNQV1VyZDFCZ3Y1bTg2NVZsa9IBxAFBVV95cUxOYzY2UUFvcC1Wc1hVVEV1WEkwUjlYYjJSRWtwVWItSklOaDFVT0Q5THRYb0tBbVJqdW81QWtUQzJwSVRaRnVIQ092UzBucjhlTTliNzhPR0lnWThyb19qY2p1WTktY1pSeUVyZWg3UmdOdlhPMi05UHF4SF8xalJUNldUb2lXb1hiTVZxTG8zT1pYZUJ3Y2FyMzAydkFVNDM3UHYxZ0x0bkhGelJad0VxdlVjek53dGwxa29Ga29BNU02MDds?oc=5",
+      "title": "Samsung to use TSMC’s 3nm process for Nvidia’s next-generation HBM chips: Report",
       "body": "",
-      "tag": "경쟁"
+      "tag": "시장"
+    },
+    {
+      "date": "10.18",
+      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE40VTZ5MUttZGNTTjZINkpyQVcyVmRLdkFXMHRBZlBxWTh3ZzlPSkFlQXAyWVc5SVJ4UUw2TVdDY2JpUnpKckIxLXduYjFFSGFaUHlaYU9YaUhpc1BubHJqckY0Rm5DOUU5SktrNHFsYmkwR0lQTW1PcllHTQ?oc=5",
+      "title": "Memory Chip Shortage 2026: PC Prices Up 17%, Gartner Says",
+      "body": "",
+      "tag": "시장"
+    },
+    {
+      "date": "10.18",
+      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNOFM2YWktT3BpSFdVbGxsNlJhTzN3c19KMHQ0ZE44U0s1UnFmSlFhTHNKQUFlWmszb2pWYUhXcDk5dTBFZkVLcThpWjJCb2lpSS1DSEkwRDAzU2pXc1lCc0JOVU52UW5XejhWVnVaLWxJaTJ0dlpMWHlFZ2JacXE2RFJPMGp6a2JOSmxwYk00UGoybzRfY3YwbXVsQWdVajhXRHplbVRtRHFrb1hKVFhDWWQyZnM0eXFKVDJyTUQtTmlXcmtIcENqT2ZNaTR0dGtBNjF4emM1Z1JUZ9IB2gFBVV95cUxNTGg1d213bm5uU01oUWpmclZ6cjlFUkhuNUlPSTJqQlhhckdORDdKY18yLWV3TDBKMjhYaVVEYlVQSlpJNHpnNTZkMEgyUFBJUVdWZ1NlLUY1TVc2OWpaZEUtdVVfd2NMdjFmbU81U0dzUnpqYW1zQ3JiZDliU2FUVW1sbW9HdGptQmdwZjZ4T0NDdThRb2QxbTF2ZTJQa3E0RzNrSGRiWVprV3N1dGRlaHNCWkZKWnlpNS1kZlV1elM5YVFCdVA2UC1RZTdhXzAwZkdfa0xnUVJNUQ?oc=5",
+      "title": "More drug, semiconductor firms to set up or expand in Hong Kong, OASES head says",
+      "body": "",
+      "tag": "시장"
+    },
+    {
+      "date": "10.18",
+      "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQQlJPQzY5SkRVUjhBemxhZkxLdDgybmNMX3hkUHlZZ0VIeF9uN3IyM3RyU0tYY2I1TTlEY0FpcjNZTEZlZVBZSTBVR0tHUXZpVWREbUNsWDVaOVdmMHA0eTFhcnpMQ21qY1BxVUtwSldOM0dCdlM4akVWWWxMS0RodkZJdUZYdHZ6M3Q2VXlvUlRJX3FFRzNkSlY5OV9YNFVnUHVkYVkyR0dvVDJCaFd5MU5iRDA5MkJVeVFWRTdvRWtnZDZ6WWFLQm5KaGE2eTh1YVA0YzFvdjMxeTjSAeABQVVfeXFMTXd3azJnNlJ4YXp3Q2liRUpxTGg5MEdHclB3V0pfaUoxTGxUQ0FDRFhjZFhXN1BHVC0tcFd2NmlzdUkyUFNGYXNSczZadHVza09PYmM5M0JfTHpCckxiNzdLTTFGMWJyVUJ1RkxfTzF0cmIzdERDLW1CWFhwOXBEdTBsWWdzWFQ0QUFYbmtIUHlfU01fYUs3c2IxMm1WZUZWNGNPNzh5SEpDRG81SElIWnRjZV85RWxjZ3djRi1JZjh5OWJtc0dHY19XNEwwaHB2YTQ5YWhaWTJucE16Zk5iWkw?oc=5",
+      "title": "Musk's criticism of Samsung, SK's memory chip pricing runs counter to market logic: expert",
+      "body": "",
+      "tag": "시장"
     },
     {
       "date": "10.17",
@@ -197,6 +218,41 @@
       "title": "Elon Musk’s China RAM Warning Raises Questions for Samsung, SK Hynix as South Korea Faces Potential Memory Chip Oversupply and Less Time To Diversify",
       "body": "",
       "tag": "시장"
+    },
+    {
+      "date": "10.16",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBhYlNBTnlYNHRPZXJtcW1WUmRWel9DckdvenNMemR5T0VCLUZWMGFzeGE0aDVEaEhQcV9uRFhMRVFYSUVtMDBrZHA5Sy1zSzc4V1lxelhUdjdqSFByTHJBQkxBSWhsQmg3TjJRdldn?oc=5",
+      "title": "Chip Industry Week In Review",
+      "body": "",
+      "tag": "시장"
+    },
+    {
+      "date": "10.01",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE02WlBGcUJjam5TVm9nTU01cnB4QlFXcURiTUZLM2pvQVNaazY5UTE4WWpiSHp4TUIwdjFLUThzYmxxODhPckhnUVM1alZoSFgwV2hudUtQSVhUUHlJdzFNZEtKbjBpejg?oc=5",
+      "title": "DRAM, NAND Prices Hit Record Highs Again in September",
+      "body": "",
+      "tag": "시장"
+    },
+    {
+      "date": "09.30",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQa3lsYlhpSS10cG1TX24xZm02VHBGLWhseXJtN1EwV21tSERNeXRTRVYzb28yTU9pSWJwWDhxS09VNTZPTTBLaWtIX2hsWFNiZ3o3Z3Y1aXd6WWlycmU4RWc4RDY3OXRqdE5IVVl5TmtGVm41b1BHejdtczJISF9ybGE5WUJ1SDhfMGJkODNVM3Nrb2lvbEg4ZTJwT1ViREpPdThIanFRbVNTR282OWViSk95QUVfako0OWE0ejFjM1h2a0EwbmUyTUh3ajU?oc=5",
+      "title": "[Insights] Memory Spot Price Update: DRAM Market Quiet Amid Holidays; NAND Buying Stays Weak",
+      "body": "",
+      "tag": "시장"
+    },
+    {
+      "date": "06.26",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNbURyQWFoTmhUcDlERnhKYmxFOWg3LTZyZndMT1BFaDhoTmpsTUtQd2FGZ3FpNWJuRC1UUFI3a3RZZTlBMHA5V0lVOFh3Q0RFWHIzVFBDQVhUS0V0aldhd3RPZi1iUzhac0NoRTRVUEtFa0VadkNzMVZkNGZkVlprOGR2bG9UWlA0dlk4R3F6dGlZM0QtYUxrTEJRZW4wa1lV?oc=5",
+      "title": "Why the AI Memory Shortage Could Keep DRAM and NAND Prices High for Years",
+      "body": "",
+      "tag": "시장"
+    },
+    {
+      "date": "10.17",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNSDgyNmdyZzd3R0ltd0hjNWtvMnJiaVJmNXVzY0RPZVlhVUVYZTNHT0JSdlZiUXZhQlppbktHVXd4ZGdULUVpeWpHcEd6MUpkSkZxU3YyZEtfNFNSakRfbm1xcWtJWU5fZ0kwQzVUd3Qwc3pzT1ZjS2MyaThrM3J1a2xwVmxsYmhuUndNOXZqUWE3dzRJX3IyaUFreVZrWkRpRXRFb3o0YmRFeGhDMS1fTg?oc=5",
+      "title": "Micron Is Down 30% From Its High and Just Lost Its $1 Trillion Status",
+      "body": "",
+      "tag": "경쟁"
     },
     {
       "date": "10.16",
@@ -248,20 +304,6 @@
       "tag": "투자"
     },
     {
-      "date": "10.01",
-      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE02WlBGcUJjam5TVm9nTU01cnB4QlFXcURiTUZLM2pvQVNaazY5UTE4WWpiSHp4TUIwdjFLUThzYmxxODhPckhnUVM1alZoSFgwV2hudUtQSVhUUHlJdzFNZEtKbjBpejg?oc=5",
-      "title": "DRAM, NAND Prices Hit Record Highs Again in September",
-      "body": "",
-      "tag": "시장"
-    },
-    {
-      "date": "06.26",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNbURyQWFoTmhUcDlERnhKYmxFOWg3LTZyZndMT1BFaDhoTmpsTUtQd2FGZ3FpNWJuRC1UUFI3a3RZZTlBMHA5V0lVOFh3Q0RFWHIzVFBDQVhUS0V0aldhd3RPZi1iUzhac0NoRTRVUEtFa0VadkNzMVZkNGZkVlprOGR2bG9UWlA0dlk4R3F6dGlZM0QtYUxrTEJRZW4wa1lV?oc=5",
-      "title": "Why the AI Memory Shortage Could Keep DRAM and NAND Prices High for Years",
-      "body": "",
-      "tag": "시장"
-    },
-    {
       "date": "10.16",
       "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQeG1ocEhsUzZlVEhBYS01V3lPMEljZ3VnSHhRcVRybkZ1RWtxS2lGbkV6T3JlQzBPVE5fUFoxdFFNVVJRLWs1bVVBaDVKTnZUN0hXTlFoNUY1eF9aWVdTMXUybFZWZ1RPUFNYVVhCWXRQTmY2R3VldlNiLXRFdWRSbFZIU3h2SV9EN1N2dkFIdzY3b010dGFXdQ?oc=5",
       "title": "Not AMD. Not Broadcom. This is the Chip Designer Nvidia Investors Should Be Watching",
@@ -309,49 +351,7 @@
       "title": "Elon Musk hints at Samsung charging too much for memory chips",
       "body": "",
       "tag": "시장"
-    },
-    {
-      "date": "10.14",
-      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOeHJCVXEwelRSZUpZZG91VG5BbHo3VUJKOUQyNDV3bkp6R2J4ZTZPS3ZkUVV0b3lKMTQ3OU4xWjBRSmFTMXM3WW9ZNk8wdzVPaDdld0l0OGZGTG9fdFB5TW1KWVRSLWs1elBEU3J2Ri1mQjRuWEMtellMUXNnQXJ2WDNGeDhRTFExbXVJTjZnd3NuQktWTHQ0bXpXd0FKcm4tQ1VTYklLM1RqenJnMk9XY3c3WURWU0dieWc?oc=5",
-      "title": "Memory breakthrough by China's CXMT puts chip rivals on back foot",
-      "body": "",
-      "tag": "시장"
-    },
-    {
-      "date": "10.13",
-      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQQVNWdnNUb3NzYU9nZDhkbTJ6TXRCMEM0dDZMVDN4b3ZEbGkyZjVUaEZ6bVJPblhPR3ZxM0RBQWN3OUJyTzRDWW85dWdxWEcySWh4MnB2THdWNG9JMmZVZG1LU2FOUkFkMFQzaDZFNVBZLW1xWU9pdkl6UjhkbldBLVlnQnFoMXAzNUZ6cFZKR0NtQQ?oc=5",
-      "title": "Cathie Wood Warns China Capacity Could Worsen Memory-Chip Cycles",
-      "body": "",
-      "tag": "시장"
-    },
-    {
-      "date": "10.12",
-      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOZDVXZUxEQThHM2JwSkFHMnVfSDY4djItRE9YdjdMaGxJaVkyU1M2YlozTUw4NUxwRUNDNkNCS3VPbkZzN0piYkpIWkR6WDRUQWpXR0R5Wm5DRmlMMzNwNkVHYjkteUp2ZEllTzFEQ1RXYkZkZGxfeWwtbldHOEw4VHp6M2tiTmhYV0J5a1dHS3lXTVh2MXRhbzJDYnc1eV9ZWVgzMG8wenNzbzU5ZVcyY1FQby1IaFFw?oc=5",
-      "title": "SanDisk Drops 6% in Memory Selloff on China’s DRAM Progress; Seagate Slides 4%",
-      "body": "",
-      "tag": "시장"
-    },
-    {
-      "date": "10.12",
-      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOZmZHS080emE3cTZyaHozcTJmTTBYUk1GZEhNX3drTUh1S29LZWJRaWpUMlplQWd4STZzZFRNWFZkeEp4UVdiSHdaZlZPWVdHUnFHUDRrTDlWbzIzTU9LeUpoTDZ4ZjNxY1FBemZaVnRaOFlxNjJWcm9RaVR2ZWtldTlQWWhUczc4LUxmTG8tMGpUNTNvQ2lDUHd1RGZ5b3IyYzd5MUZqcU16NnN0aUIycmVIdlhZT2NseFBCaDFhdW_SAcABQVVfeXFMTU1TVTBjV2xjdGFob3d3R3VVTE0tczZyLXA3elItTmN3OVNHUm5OeER4SUxNVVdCNEZESTBzUE41dGNqWWd2SGt3czNTUW5kcWxZN3RIblpGQWtfTHZ3UnNzYm1QWUdVckUzYkp5ZkpyMUxLLXdDNFZROHdjMGFST0tsLVcxWlVETUkyMjVZaHpkTkZEN01URzUyRjZlOWV6T1hVX0FvaHVVTVM2ME45QWI5QXdHYzQ1b1dJVElDZGNG?oc=5",
-      "title": "China’s CXMT makes progress in chip design pursued by Samsung, SK Hynix",
-      "body": "",
-      "tag": "시장"
-    },
-    {
-      "date": "10.13",
-      "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxONm5GWWw2ZjRMemlVNFRrZ3pfazZqeVZGS3hxbVJzZ3ZjeVVUQlh1Z09uempFVzFNMUFGN0NNLXNlaXpkZFc0cnhvYU5SUUt1N1NORTdLbTljUV96RlFxaU8yeGlENThyWGFnVHRvTnB1a2ZQQTd0VWR2R0VFQmlEU1RuWHR2X1hKcHdDWmZhWS0xZEVSNmJfc1czRWxwYkVzQVd0c2xKcTB1Q096Q1BnMWZfdDJBWXFueVVIV2Z4a0oycG5SN1FGalMzOGhWdnZfUFNwMnRPQ2hLT245S29HNG5hUmMtMFU?oc=5",
-      "title": "SanDisk Stock Price Forecast: ChangXin Memory’s New DRAM Architecture Collaterally Hits NAND, HBF High-Bandwidth Flash Key to Turnaround",
-      "body": "",
-      "tag": "시장"
-    },
-    {
-      "date": "10.13",
-      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5RMTRMdUY1OXVLcjkxM3VsaHZTZlBEQVV5Sk1xNnhTRk1lLWNzaGlmb0NndlhqajJOWXRsVWRVT2o3Z2FmbHQ4WTJPTUJxTXFYZERhNE5nblZtTlRzaGs2QXRWbl9vM19fbTF1V2RtUQ?oc=5",
-      "title": "Global chip stocks are sinking as China's CXMT claims a denser memory chip design",
-      "body": "",
-      "tag": "시장"
     }
   ],
-  "updatedAt": "2026-10-17T22:55:45.743Z"
+  "updatedAt": "2026-10-18T22:49:49.832Z"
 }
