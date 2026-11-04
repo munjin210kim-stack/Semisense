@@ -1,6 +1,83 @@
 {
   "kr": [
     {
+      "date": "11.04",
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5IcUpHc29GY3JpbkxyX3JyVzhlbDFRNkoxYUtMdXg2dXhUR2JZQVVhTW1xWHFLbEpSR05MVWxWbDJscTFKbGwtX25hWU9rXzhGM3BtaFNySmFXYzh0ZVpnVG9DTnUwUkp0U184QjN6UERHeFXSAWZBVV95cUxPZ05ubjhPUGdGWnZDZmRObTdDcUR5SVZkVTlNM3BYR0xzdTlnbGNqVjdDLWhaZzhtVVpjdEtsaDVCamdhQXN4a2xkc1JFc3hTZXpFanJjckFPZlUzOGtMdmMzV0Y4UlE?oc=5",
+      "title": "美, SK하이닉스 中공장 장비 반입 제동…뉴욕 반도체 공장 투자도 난항",
+      "body": "",
+      "tag": "투자"
+    },
+    {
+      "date": "11.03",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1xRjB1dXZjUDFCNGlNQmhXdjFRWERxYlU4bHgyb0ZBQ3hHczVCSnlvZUxjR3hjQ1E2azI5RjBFaEdYLTBQeHpMalU0N1NjSndxOVJKSw?oc=5",
+      "title": "칩스앤미디어, 모빌린트 AI 반도체 양산 본격화…휴머노이드·로봇 시장 진출",
+      "body": "",
+      "tag": "시장"
+    },
+    {
+      "date": "11.03",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE8tMDlSdEg2azNtSWhLUzlzcVA0WW1sX2JtMUU1Z3VwMVlIMkthbEhSdWVtS2NPanhULXo3WW1yeVBPVHJfdDlua1B3VGpma3FHOHpsc0x4UVpSTWxNUkozM19GdmlhQktP0gFuQVVfeXFMTWJxaTlpRFVuZDZqQk1ueVhDVTNOck0tb3NCSUd0Mm1TNzZUelpMSTJscVgtZjU3UHpBZ3hQYTlwQzQ4U0dTUUNSTi0yMkpBUjMtOERPVUFpNGQwWWkySU44emNnOUdtTEdQTUlXOHc?oc=5",
+      "title": "SK하이닉스 60조 뉴욕공장 '무산 위기'…중국 막히자 미국도 접는다 - 머니투데이",
+      "body": "",
+      "tag": "투자"
+    },
+    {
+      "date": "11.03",
+      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFB6YlJoTXBhQWRjRmpGUlFmZl9nVnNnY2c3dlpkTW1WVE44TVF3ekd2ODJDYUl4YjJSYTRUUU8zNklGUGVqZk1iV2szVGwtZw?oc=5",
+      "title": "반도체 장비, 3년뒤 계약까지 줄섰다",
+      "body": "",
+      "tag": "시장"
+    },
+    {
+      "date": "11.03",
+      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5WUDIyR0NLdW9fUXJPVDJQN1E1cjZ5THlMWTFEMUV3Z3hiNUZNQmROUF9UNWpodnhTOFBqWXNxNmVTWWMyWEdoMkR5VlktcUxFUmfSAVNBVV95cUxQODNPd21lRmY0UXhXekRoQ1ZOZjlTLXRfMWZ3VUZqU0dUMktnb0FnQjdhd3BHSG5iUXRJZE9YaldESmpVT3A5ZzJIMGVSRW1FejZKZw?oc=5",
+      "title": "“납땜 녹여 메모리만 화웨이로”…‘삼전닉스 HBM’ 빼돌리는 밀수성행",
+      "body": "",
+      "tag": "시장"
+    },
+    {
+      "date": "11.03",
+      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE41bmNkSWlDc0JaR0NjWUhuamdIa3J2c1dCV1NLdHBKOFNyeE9idm04bDNQT1NLN0lyZVRuM2FTT2lNRlo1SllOV0F1eUhSaUNBa0E?oc=5",
+      "title": "반도체 시장 경계하는 강방천 … 그래도 “지금은 사야 할 때”",
+      "body": "",
+      "tag": "시장"
+    },
+    {
+      "date": "11.03",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5xZkxKZ2pXbEN5TVg3SWsyRXMtRjRld3AxdGlaUkZJdTJ4NllnaFdPY0tVWlBSYTlRREpEU0c0V1lGOUk4RVpyQWZQRWVpbFhzaWlLVE44VFhtQQ?oc=5",
+      "title": "삼성, 급하게 'SOS' 보냈지만…대만 업체가 주문 거절한 이유",
+      "body": "",
+      "tag": "시장"
+    },
+    {
+      "date": "11.02",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNa2VqTjR1VXdlUjZnalU1ZmRwQVhCYVl6VlM0MEtHSEdFbVROa0lVN0tway03VXdRR2NLYUxFOEdrTWs2UkZRbl9qR09GdHMybXhWV1p5YWdUUXBMRFpNLUlfb3BrTFEtbmRVbTl2YkczbmhRT0lGREhCV1NzLWhiU082QmxYMlR3ckRn?oc=5",
+      "title": "\"은퇴는 없다\" BMS 반도체 시장에 도전장 내민 삼성전자 부사장 출신 창업가",
+      "body": "",
+      "tag": "시장"
+    },
+    {
+      "date": "11.02",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNcTBoZkh3aThtdXkyUVpkbHdUMnpmSC1NTlo4R2NjTXE2czNET0ZoRUZ4XzY5ODlGMmhQV010V3gyWGdnVnBMdjNnak53V3lWZHlzSXZFaFdmWEtQaFNlU0hFZkpTZ0JWblI2cnV5M3ViQ3BXTU1waWZhQUVUUHY1aQ?oc=5",
+      "title": "범용 D램에 수익성 밀린 HBM…\"내년엔 몸값 두배\"",
+      "body": "",
+      "tag": "시장"
+    },
+    {
+      "date": "11.02",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5xQktmeTVaVXplNy1pTmRHYVlEekJxVHBDX1BBNFhhS2JyQnVndFNycjRvVmt1UTN6YlFTNnBVUkpFUDZ4OGhkLW9ZLTFueTY2MzV3Ql9qNFFNNmdRMzdiTGtYTXh4UGZVOEZhX1FB?oc=5",
+      "title": "“HBM 없어서 못 판다”… 메모리 3사, 증설 경쟁 본격화",
+      "body": "",
+      "tag": "경쟁"
+    },
+    {
+      "date": "11.02",
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1za01uUTFXdWcyNG1sbWpIRy1jT2hTaEQyVFVTcjAwb0N6amRnTHF3ckpTZl9yTVFKZ0ZZbDNoQnY2QnNLaEt0QjRSdnpmMzJobS1XNkhqcUZVR1J5T2ktbEVQRi0yZw?oc=5",
+      "title": "삼성전자, 2030년 8인치 파운드리 완전 철수",
+      "body": "",
+      "tag": "시장"
+    },
+    {
       "date": "11.03",
       "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBqcmt1WTExNHdvWnF6NEFfVGU2cE1KcloyVnVKTEQ3b05XSGdUMUp0LVJudkNsZ2MxVkZtR2NERU4xOVJ0Z0dqT3BpcUZ3RXBLMDFqcmtyN0Flb3hfVmhzYW0wOWJSME9FVjRuMHBrX0lmdw?oc=5",
       "title": "채권 끊고 예금 가더니…SK하이닉스, 예금담보 ABCP로 돌아왔다",
@@ -39,34 +116,6 @@
       "date": "11.03",
       "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9taTNCSWY0VHNMbXhiOFlVenpxc2tPU2FOTDlZamVYNWRsNWdQLUFjbE9BbkpZUlE3TC1aNUM5NkdhZ0pNQVpsMFZ0bmxKVWthcDJhMnlSd3hjQ0hKcl80STVodjItYUd10gFuQVVfeXFMTWxXTWpVaHV6SlQ0LWNBaVRvdUd0ZFEwUXNEc3JWcndyTXktejBYcVlqZUoxUnFOTGRXOEpNc1ROeGtxdkxWUXFBcDlST3ZPbElTVW50RkRRTmVETUVrWkJnMTB5QXR4aTJ0ejdyWFE?oc=5",
       "title": "22만전자·140만닉스 깨졌다...반도체 발목 잡은 AI 수익성 - 머니투데이",
-      "body": "",
-      "tag": "시장"
-    },
-    {
-      "date": "11.02",
-      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNa2VqTjR1VXdlUjZnalU1ZmRwQVhCYVl6VlM0MEtHSEdFbVROa0lVN0tway03VXdRR2NLYUxFOEdrTWs2UkZRbl9qR09GdHMybXhWV1p5YWdUUXBMRFpNLUlfb3BrTFEtbmRVbTl2YkczbmhRT0lGREhCV1NzLWhiU082QmxYMlR3ckRn?oc=5",
-      "title": "\"은퇴는 없다\" BMS 반도체 시장에 도전장 내민 삼성전자 부사장 출신 창업가",
-      "body": "",
-      "tag": "시장"
-    },
-    {
-      "date": "11.02",
-      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNcTBoZkh3aThtdXkyUVpkbHdUMnpmSC1NTlo4R2NjTXE2czNET0ZoRUZ4XzY5ODlGMmhQV010V3gyWGdnVnBMdjNnak53V3lWZHlzSXZFaFdmWEtQaFNlU0hFZkpTZ0JWblI2cnV5M3ViQ3BXTU1waWZhQUVUUHY1aQ?oc=5",
-      "title": "범용 D램에 수익성 밀린 HBM…\"내년엔 몸값 두배\"",
-      "body": "",
-      "tag": "시장"
-    },
-    {
-      "date": "11.02",
-      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5xQktmeTVaVXplNy1pTmRHYVlEekJxVHBDX1BBNFhhS2JyQnVndFNycjRvVmt1UTN6YlFTNnBVUkpFUDZ4OGhkLW9ZLTFueTY2MzV3Ql9qNFFNNmdRMzdiTGtYTXh4UGZVOEZhX1FB?oc=5",
-      "title": "“HBM 없어서 못 판다”… 메모리 3사, 증설 경쟁 본격화",
-      "body": "",
-      "tag": "경쟁"
-    },
-    {
-      "date": "11.02",
-      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1za01uUTFXdWcyNG1sbWpIRy1jT2hTaEQyVFVTcjAwb0N6amRnTHF3ckpTZl9yTVFKZ0ZZbDNoQnY2QnNLaEt0QjRSdnpmMzJobS1XNkhqcUZVR1J5T2ktbEVQRi0yZw?oc=5",
-      "title": "삼성전자, 2030년 8인치 파운드리 완전 철수",
       "body": "",
       "tag": "시장"
     },
@@ -125,62 +174,83 @@
       "title": "“141만원이 400만원 된다고?”…SK하이닉스, 지금이 기회?[종목e슈]",
       "body": "",
       "tag": "시장"
-    },
-    {
-      "date": "10.30",
-      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1EVURiaERMeGVBZ0VfZ3ExaWZCMHlvSHdTTm5tOHhkV1FJZVNnbW1JaFJlTENlOWJJWE0yYWk4a2NpaS0zc1VzUkhZcG1veUxHU3R3TXhrODJYU3ozZHBQdlFR?oc=5",
-      "title": "[상생 IN사이드] ‘산업도로가 시민의 산책로로’… SK하이닉스 ‘청주 도심 내 도시 숲 조성 사업’이 청주에 만든 3.3km 숲길",
-      "body": "",
-      "tag": "시장"
-    },
-    {
-      "date": "10.30",
-      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1RV280T1R0Qmk4SDZIbGozREJvcUoxUXNpZHAyMkJ3cnFnRkVtcjEyVlB3ajV6NVF4RGxLWmZmRF8waHhfejBGaWNjRUJsZ01rdmI4WHBR?oc=5",
-      "title": "삼전·하닉, 3분기 실적 신기록… \"메모리 부족 2028년까지\"",
-      "body": "",
-      "tag": "실적"
-    },
-    {
-      "date": "10.30",
-      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9JTXVXRl8xZVZaN3RSRy15YlNhdHp2RGZ0TUswN0dxNi1SbVVDU3ctWHVEdDQtNXBSeV9EWXd3azZTNTM2LUZlUmFtZlVfU2xZWU1TMWgxRFM2TW9UR3VxVk1HaUFEMnRwRUR1cDNPYVNWV2dYWTdfT1djVk0wUQ?oc=5",
-      "title": "이제 반도체도 맞춤 제작! ‘커스텀 HBM’ 뜬다",
-      "body": "",
-      "tag": "시장"
-    },
-    {
-      "date": "10.30",
-      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5hQ0RGcGNxcWxsd1QzeUQwRk1xNFB2YzJFYk5IVU91RTFQaElFWVo5bUtSSl81LXVoVFZEaGkwWnFycmhFMm9qSHlGdWVDdE5NVm53c0xR?oc=5",
-      "title": "PC는 식고 AI 서버는 뜨겁다…선명해진 ‘K자형’ 반도체 시장",
-      "body": "",
-      "tag": "시장"
-    },
-    {
-      "date": "10.31",
-      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE15akN3SkotWnQ1cTRvNUpZNWZBblVzaUJqUWpPSEJOTV9QajVUX2JFMnR0TDY4dVB3UjVEdXh5dDdfYlpDbnFVRG1uSWlxWXJMTjJlWlQwUE1aRHJMRGVLTzE0MGk2cjA?oc=5",
-      "title": "샘 올트먼, 삼성 핵심 경영진과 AI 미래 논의… 반도체·데이터센터 협력 확대 기대",
-      "body": "",
-      "tag": "시장"
-    },
-    {
-      "date": "10.31",
-      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE50cFZ4a20xUlc5U2V0OW02WWlSZl9vejUzLXBhU0ltUkpEdkx4WDBFNE5KWmY4d2RUcUdIaHZPdV80TlFTTFpuY08ya2ROM0d0Yk56ZC1jb1B3VFHSAWBBVV95cUxNcnhPNEpjb3FnZ0k4WVJNQWN5cE5hVmpIVnFpNlNqb05NRE5FX29LWGxYNWRfSzFpLURpbTlEejRrUTJKUTd6YV96X2g2dXVXUG9GQUUwd01yNGFGbnpMU24?oc=5",
-      "title": "메모리 호황 속 HBM4 경쟁 새 국면…삼성 추격·SK하이닉스 수성",
-      "body": "",
-      "tag": "경쟁"
-    },
-    {
-      "date": "10.31",
-      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBvandqYVNHYVloVzBRRWVzX2NDRW5GWVc1d1ZSR0tpWlhIVW9oV2k4dnNYMEtjR3czRi1TZy10bWhUQThPbVg3Zkh3ZU0xY2dJYkE2MExQS2JVT0s2QVBHRFl1RjZwc2JOU3pHQldpMUdpZw?oc=5",
-      "title": "구글·스페이스X, 우주 AI 데이터센터 경쟁 본격화…엔비디아·반도체 시장 어떻게 바뀌나",
-      "body": "",
-      "tag": "경쟁"
     }
   ],
   "gl": [
     {
       "date": "11.03",
-      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQSjFHcGdwUGJIbTlrcDkwQmxIMjViWVcwdXdLOG55R1l5MlpKVDVzeERyNm44WmZfNjI4by0tUHpjOHM1NUpYLWZIUFpSY1hsTUxWNGUzTzV2VDVEMzlOcU5jMnJMSlJIZDRPZWhRNXVRbDllbGQwZV9wVklfalR0WVRwejJiOWZNVkN5ajZDRFFsMFBWTUkyZmxR?oc=5",
-      "title": "How Smugglers Get Expensive Memory Chips to China from South Korea",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPSUkyZU5RN3RmTWY3a0tUNlZmU3NZeXhwX2xFTlZLQWpBWGc0Y0hhcWczQzVacUNueXUzclFjZHZJOEJaQnlDMnY4dlJCd2pPTXl3ZXdaZnhNYlB3WlQ2Z202bmZjOVZmc09KeU1YX0c3OGdZajdRaWFlZV9EdXUxNWZ1UXBDM29RdHI5TC1DNVQ1TGFjdk04?oc=5",
+      "title": "SK Hynix’s chip plans hit snag over U.S. restrictions on China",
+      "body": "",
+      "tag": "시장"
+    },
+    {
+      "date": "11.03",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOVmRmcUtySDFqa3Zfak1Sc1dxbzFXYzlTd1UwX2p3ckVBQzB4VTlNQUtSMUd6Rk10eHU2Z0lhczFOeVNXLUtTVFhzU3BQc1labmRnQU0xREZ1TndBeWR1RUNqY2h4cjlLZkFRMUdybnBkTjhGYnE5UHFPM3YxTHd0cG40b3EycFNPc09haWk5RUNfc0Jnemxn?oc=5",
+      "title": "Taiwan Semi or Broadcom: If I Could Only Own 1 for the Next 5 Years, It Would Be This",
+      "body": "",
+      "tag": "시장"
+    },
+    {
+      "date": "11.03",
+      "url": "https://news.google.com/rss/articles/CBMi8AJBVV95cUxQRVRGUHpOR3dGQWFndFpuekxKZzF0c0FfV3g5UGVYSEd3WjJxeUYySHF6R29SdXlrUHB4d3prWjQ4aGlYbUFxSnBOY0VzZE9JYjJTRHM1S1J0QTFId2tCWnpNdVRFM000UEtsMG9MekJQS1BpV2hZaVp4ZTU5NlpCZ0dBMUF2X1VrQUROWHNfVzY1cWpmZjA1dGpPci1DZGNvNVZuRnQtbXRzM2gyMmhZbXFEbmo0MXQzWDR1WEdvR3M5aWk5SHY1RFlYUlJBdXYya2pOQk5yZGJXUlMyN0hOX21zRVVkZk9NVGU4SWUwOHJ1T3hZSVJSWVRSWlZtaHRJLWRHRTkwZnFxWkZwNEdISU9NU3VWNDl5MWRaYklnX3UwOXA5R19JM0dIbHFYTmVQQVhTd3ppU0VfdEtsMHU1V3ZGcWc3azVaWVc4ZF9oVDg4YnlKc0RlM0o3TXRfa0JnOE9vRDZlaVpjM2g2Wmxveg?oc=5",
+      "title": "Apple faces unprecedented memory cost increases as RAM prices continue to surge, manufacturing bill climbs by $33 billion — rising component expenses threaten margins through the holiday quarter and into 2027",
+      "body": "",
+      "tag": "가격"
+    },
+    {
+      "date": "11.03",
+      "url": "https://news.google.com/rss/articles/CBMi4wJBVV95cUxNczB1bmd3Umc1VkpITE9hR0cybF9uMTNvT01RcWVodndZRlZpUS1TTTBDOEs2WlFWMGo5OC1UR2szQ3VENE1fbHFSYW9mdG52R3RwSVFfNjNRM2F0MGtIWFVWMzdpWndQYzg0OWNyV3l2NnV6SFNzNmVPOTVnYWxEZUFQRlZIbEdXbXBZNlpOTVBzVS1HSWhHaEVNcklmX2Vza3VZQ25KbU1KZzVKbS1INjZMN2Z5MEtCTmctT1hSVjhtYU0zdnhBcDNsQ1FmRkZWX2lDUjIya2RCdXFjR0J3V2JWdVFCMHZSbjlnSno5RDBkdnItOFFKTkVUNmhzU0tNY2ZFLXNGWkY5LU93VnROZFZqQi1sdldaN29zRExpN20xbnRUMjlnM216ZGtDaUsyWFVfY1pzY2N1eEFOMXlvWTNOUWNtTlNNa1R4WU1nYlpPcVFlZ0ZWZC13S2NHYnc1Ym5R?oc=5",
+      "title": "AI chip smugglers exploit trade control loophole to bring banned HBM from South Korea into China — expensive memory chips packaged with cheap, unsanctioned processors to become legal exports",
+      "body": "",
+      "tag": "시장"
+    },
+    {
+      "date": "11.03",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOcXVQT3JsZF9pLS1pYXNuS1dxWlhPTXhndS1Zd3BOWnpjMTN3UEJ5WWtHSDR6YmpWY3FwcTEtY3Bpa01tWmJucVBMSzhNaGJGRkdyVDgwMzdCcFRPNGJ0R25NY0J0VGdJZjhGNE9CeWxQQnI5N3J3ajlFUU9lSm1xRXkyemVpX3Y3bWQxU1ptMkR1OTd0WkExLXhBLUNDdWJZbVZr?oc=5",
+      "title": "Chipmaker triples Austin footprint as region sees semiconductor industry surge - Austin American",
+      "body": "",
+      "tag": "시장"
+    },
+    {
+      "date": "11.03",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE94ZTRwSGVHR3lxSHYyd3E3ZFJjal9CX2JhWE1jdTR4bnRtYUdJRHg4czlKMGhZZTFKb210ZnRVQjlqYVVodE9lcHJvYXNVZUZyWmxGT0d0T2d0S0NVbzZ3?oc=5",
+      "title": "Micron dismisses 4F-squared DRAM as CXMT presses ahead — why Samsung, SK Hynix remain divided",
+      "body": "",
+      "tag": "경쟁"
+    },
+    {
+      "date": "11.02",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOY2E4YlE4RXJXbEdud2E0cUZwYmVMY2VyTEU3aExzSUdwU3o0SjFqVW9wQkZBVkF5b3hwNHRMMDlKOXRzSVJHeFhkWDRKNVVaMXp5VkItWEY5Y3l6VU5Va3VMVW1NTlJ3SlNieTBQdy0yZll6T3E3UFZuSkM1aEVLRkVpejdZSGdHYzllUnQ2M0VqRUk?oc=5",
+      "title": "The Semiconductor Selloff Was A Gift Heading Into 2027 (NASDAQ:SMH)",
+      "body": "",
+      "tag": "시장"
+    },
+    {
+      "date": "11.02",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBSUFRIc1ZjRUF1dUlyOHNYN2hMcDAwOGRidncyRHNQWXNxaTVKNFFYYzFTb2MwUkdXZG43YTV1dEVfOUlFQTVBRnNGVHpvWnZIUGwyNk56MnpwemJVRWxCSkJlWXdYekU?oc=5",
+      "title": "Commodity DRAM Prices Hit Record High in October as NAND Rally Stalls",
+      "body": "",
+      "tag": "시장"
+    },
+    {
+      "date": "11.01",
+      "url": "https://news.google.com/rss/articles/CBMi5AJBVV95cUxPcGdMMzlLWmVpU21udW13S2IzUy1DbGxzdFFRenNLd0hsQXo0N1ktb3o5dXZPdjVMQWFRdmlUenFOQ2l6MGdFdHZ0eS13YUNfMTBUQmJZUkx3M2hNUVhBcnFiZWpYRjk4V1BaSXozenFGS29iZXZBWVRPdzE4WGdYaDdGODF6QVlVWGFfNG91TjR2WkhTN2FTZFpNLWUyUTBTb19aTDN6SmlpQjZwRlpJVHA5VUJHMzNtRkszV0RGTDZZTkVHN0JyX0ZmUnBURTNCaDJib09PSlloUGVINlRKTk5FMzg1RDBBLWdPM3JfZjk5NnYxOEY4VkowTmw0MTNuWmcyV1lkcFNKQTdNUDFpRVJWQ3lyNXJQZGZybTBTc2xnbGtndkFNQTQtQ01wNjRDUDVHZFFuX3VDblRhdGl3bGxNUlJsRFU0QllZVkFBZF9xaEFNSFpsV2ZOQnBOR0t5Zk5FaA?oc=5",
+      "title": "Sam Altman meets with Samsung leadership to secure more RAM for data centers amid crushing shortages — OpenAI CEO travels to South Korea to meet Samsung leadership to discuss future AI data centers",
+      "body": "",
+      "tag": "시장"
+    },
+    {
+      "date": "10.31",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOSVNjN3YzRkJWNVFYaDlLQjR2RnVxejNCbm0wT2c4S0hFSGMtekprQ1FHME5CNkt2Vll3eWE1c1VqR2hORVdMZURReGtFdXhiRDRMdGJDU0FLWGpqQXRqTWNTb2lvTzNBNlBpOS1SZU5UQ3VyTXhlSlVJNk15dmFNdQ?oc=5",
+      "title": "DRAM Hits Record as NAND Ends 21-Month Climb [2026] - https://tech",
+      "body": "",
+      "tag": "시장"
+    },
+    {
+      "date": "09.15",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNay1oSUY0Z1AwY1E0ZHdUeF9jRUNuRldkakZ2RWlnal95OVV0Y2lhREVPZDV4OUlCbHgtSUU3MlM2UE9RaVlMaXpOMjR1SGlDR0R3ZFRna3VkZWdHMl9RUDJ3NWJlTnBHdGZRaUlrb2xqTEx5aHhlWWU5SXA1azZNa09NMlEwbGszVURfal9tSHI0UDZ10gGaAUFVX3lxTE54eGd5Wlc4S2p0REozaXVHZGJrTzhyS2ZxRG4tbkxiblBqZnNGRXpIdFB5Nk5YNl9mVnVUY3g3dHp1dVF3VmV2Qm5ZQ29fUDBocWdSZzEwN3Y3T0xGS3F6aUtIbzRIZVRuWnE3eTJPQ0hRb1hSWU9jVFFFS0JwcVNVZl9xa3dhX05IWms0V2NyZTVSTjJUdnk0OUE?oc=5",
+      "title": "Inside South Korea’s university programs offering a direct route to Samsung and SK Hynix",
       "body": "",
       "tag": "시장"
     },
@@ -200,38 +270,10 @@
     },
     {
       "date": "11.02",
-      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOY2E4YlE4RXJXbEdud2E0cUZwYmVMY2VyTEU3aExzSUdwU3o0SjFqVW9wQkZBVkF5b3hwNHRMMDlKOXRzSVJHeFhkWDRKNVVaMXp5VkItWEY5Y3l6VU5Va3VMVW1NTlJ3SlNieTBQdy0yZll6T3E3UFZuSkM1aEVLRkVpejdZSGdHYzllUnQ2M0VqRUk?oc=5",
-      "title": "The Semiconductor Selloff Was A Gift Heading Into 2027 (NASDAQ:SMH)",
-      "body": "",
-      "tag": "시장"
-    },
-    {
-      "date": "11.02",
       "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOaEppTUsySTU3TXppZlFjOFFJaUpoSEIzWEk2OUxPV0lPajREQlhFYmJkNlBxNG5YNDZBSVNvaDRnZG5Qem12eDdMSG1SVHJkZ3lwb3IxZms3TENMeHZwaDAzcGNmOVVZRW9pS3hPUEVldi1tcDFCdlFQTW5LRGN4aHd5RmhWLXhTMXY3eTFLV2xjQWVrZ0wtMExRbmZaeFJManM1OUdaUkctNTJ4V0ExWE9xanZIbEFDRzdUeU9Ld1UxZE5i?oc=5",
       "title": "Micron Stock Climbs as Memory Chip Shortages Could Last Until 2030",
       "body": "",
       "tag": "경쟁"
-    },
-    {
-      "date": "11.02",
-      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBSUFRIc1ZjRUF1dUlyOHNYN2hMcDAwOGRidncyRHNQWXNxaTVKNFFYYzFTb2MwUkdXZG43YTV1dEVfOUlFQTVBRnNGVHpvWnZIUGwyNk56MnpwemJVRWxCSkJlWXdYekU?oc=5",
-      "title": "Commodity DRAM Prices Hit Record High in October as NAND Rally Stalls",
-      "body": "",
-      "tag": "시장"
-    },
-    {
-      "date": "11.02",
-      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBRRGRCYWw2QU5PQ1hIMFQyYjVZcURtNjA1a2xiajhVYjd0TmRySGdXOVZHbkh6VmtoRGV0SmJ0NDVsYkJVajRXWjRCbGNadHlsazJ3Y2k0djBRcHRUaTdvRnVydmJUMGNVMkE?oc=5",
-      "title": "Sam Altman meets with Samsung, SK as memory crunch deepens",
-      "body": "",
-      "tag": "시장"
-    },
-    {
-      "date": "10.31",
-      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOSVNjN3YzRkJWNVFYaDlLQjR2RnVxejNCbm0wT2c4S0hFSGMtekprQ1FHME5CNkt2Vll3eWE1c1VqR2hORVdMZURReGtFdXhiRDRMdGJDU0FLWGpqQXRqTWNTb2lvTzNBNlBpOS1SZU5UQ3VyTXhlSlVJNk15dmFNdQ?oc=5",
-      "title": "DRAM Hits Record as NAND Ends 21-Month Climb [2026] - https://tech",
-      "body": "",
-      "tag": "시장"
     },
     {
       "date": "10.28",
@@ -309,49 +351,7 @@
       "title": "Samsung sees AI chip shortage worsening, keeps investors in suspense on returns",
       "body": "",
       "tag": "시장"
-    },
-    {
-      "date": "06.26",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNbURyQWFoTmhUcDlERnhKYmxFOWg3LTZyZndMT1BFaDhoTmpsTUtQd2FGZ3FpNWJuRC1UUFI3a3RZZTlBMHA5V0lVOFh3Q0RFWHIzVFBDQVhUS0V0aldhd3RPZi1iUzhac0NoRTRVUEtFa0VadkNzMVZkNGZkVlprOGR2bG9UWlA0dlk4R3F6dGlZM0QtYUxrTEJRZW4wa1lV?oc=5",
-      "title": "Why the AI Memory Shortage Could Keep DRAM and NAND Prices High for Years",
-      "body": "",
-      "tag": "시장"
-    },
-    {
-      "date": "10.29",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPVVpZcEZfR1lhbUVsaGtGellucUNlR2lFeG8xVUdfdndwN1BqZEp0eHd4QzIxQjRnNnBTV2FvREQ4UkRhT0xOTTdRX0hMUVljY2hENW1jbUFGRjRDd1I3d3Q2Rm5zT005QW1iSEZsZHJMZnFnY1BYQ3VBalpzM3dtNVhBUHN2YUhzRVJVRDFMQWNUOTlxX0JCZTBLNHNNbFcwZUZmemlsSXBTeG5RaDRlVW1n?oc=5",
-      "title": "Samsung Electronics Shares Slide After Return Plan Is Delayed",
-      "body": "",
-      "tag": "시장"
-    },
-    {
-      "date": "10.28",
-      "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxQWFFrQ1JLVmNZVXZVNVVwWFlOQkIxSmQ2SDFPRWJyaElENmRKQXlPSXFWQnZXRVdXbEZlMnhRWF80YVRMaVF0NFNlcTNVd3NPWVpTTGtaSjgxQUhHUzV6MXZOdFh4UGdYSWY1X3d0YldRaE5fVnhYV0VkcFFpbHBnckhXblY4WFg3YU1VTmY5UEdfLXotSmZMaG5IbXB1YTI2am5sc2QzWG5wNURRN29uX2k2MWlBSzBFdlZiTFpiM09EQU5nTm9fTjNaTFFSMjNCM0NDMjhnTVVLLWVSUTZnNXJwVmZDTGRXTnFvQw?oc=5",
-      "title": "[Insights] Memory Spot Price Update: NAND Price Cuts Accelerate Amid China Phone Discounts; 512Gb TLC Sink 9.19%",
-      "body": "",
-      "tag": "시장"
-    },
-    {
-      "date": "10.26",
-      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1faVd5eWpUd3R1Mk5jLWV5MDZCZDhvU2dVeFNZeEloYW1VUE41SDMwS1ZNcGFwVkFFbDRUeGN1VEFtQzY3d1UxWVZpYWVlT3RhOTYzdDZsVQ?oc=5",
-      "title": "Samsung may have overtaken SK hynix in HBM revenue, analysis suggests",
-      "body": "",
-      "tag": "실적"
-    },
-    {
-      "date": "10.29",
-      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPbncwTElxQkZTd2VTWTZsVlpvZlMwRGp2Njl6OTZsaHU4OHBlbmNubFhFaTVyV01OMlZrR28yRllGTC1uVGc5eFd5TXBkQkV1d2ZrUV9qcG1CRE9Fb3p3NVBwUVBIaDdURjNtUWNLQ0xXUEFmYTJzVkpBWHpxakh2WU0xR1g5WVFlREt2RlpYRTBaZFVlYmc?oc=5",
-      "title": "Here’s What Scares Me About Semiconductor Stocks",
-      "body": "",
-      "tag": "시장"
-    },
-    {
-      "date": "10.29",
-      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1ySnhQOFpVd3RtWno1MkUxSE5XOFJOOGszZ2pJN01mY2QwYjVBb0ZNUWVEeFdSamtiOTl6VDNKclpYQnBBNW5qQjFsTkgwUFZPVmlyOGx4OUpyQ2JvdnBJREstNHFvbXlTRTVr?oc=5",
-      "title": "Samsung sees memory supply tight through 2028 as 2027 HBM sells out",
-      "body": "",
-      "tag": "시장"
     }
   ],
-  "updatedAt": "2026-11-03T02:47:00.538Z"
+  "updatedAt": "2026-11-04T01:04:17.074Z"
 }
